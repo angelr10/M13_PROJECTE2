@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
+    android:padding="0dp"
     tools:context=".Menu_Calendario">
 
     <LinearLayout
@@ -25,16 +25,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="8"
+        android:background="@drawable/estilo_barra_inferior"
         android:gravity="center">
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
 
         <ImageButton
             android:id="@+id/imageButton"
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:layout_weight="0"
+            android:backgroundTint="#00FFFFFF"
             android:cropToPadding="true"
             android:scaleType="fitEnd"
             tools:src="@mipmap/calendario_reloj" />
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -45,15 +53,22 @@
             android:paddingRight="4dp"
             android:src="@tools:sample/avatars"
             app:srcCompat="@mipmap/linea_vertical" />
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
 
         <ImageButton
             android:id="@+id/imageButton5"
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:layout_weight="0"
+            android:backgroundTint="#00FFFFFF"
             android:cropToPadding="true"
             android:scaleType="fitEnd"
             tools:src="@mipmap/llave_inglesa" />
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -64,16 +79,21 @@
             android:paddingRight="4dp"
             android:src="@tools:sample/avatars"
             app:srcCompat="@mipmap/linea_vertical" />
-
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
         <ImageButton
             android:id="@+id/imageButton6"
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:layout_weight="0"
+            android:backgroundTint="#00FFFFFF"
             android:cropToPadding="true"
             android:scaleType="fitEnd"
             tools:src="@mipmap/garaje" />
-
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="15dp"
@@ -83,12 +103,15 @@
             android:paddingRight="4dp"
             android:src="@tools:sample/avatars"
             app:srcCompat="@mipmap/linea_vertical" />
-
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
         <ImageButton
             android:id="@+id/imageButton7"
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:layout_weight="0"
+            android:backgroundTint="#00FFFFFF"
             android:cropToPadding="true"
             android:scaleType="fitEnd"
             tools:src="@mipmap/usd_circulo" />

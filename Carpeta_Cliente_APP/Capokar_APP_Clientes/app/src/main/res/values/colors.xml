@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="naranja_01">#FFEC7026</color>
+    <color name="naranja_02">#FFFFA56F</color>
+    <color name="gris_01">#FFD3D3D3</color>
+    <color name="amarillo_01">#FFFBE170</color>
+    <color name="blanco_01">#FFE4DEC0</color>
+    <color name="granate_01">#FFDB1D3D</color>
+
+
 </resources>
