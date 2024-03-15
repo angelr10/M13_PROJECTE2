@@ -16,6 +16,7 @@
         android:orientation="vertical">
 
         <androidx.fragment.app.FragmentContainerView
+            android:name="com.angel.capokar_app_clientes.fragment_main_menu_01"
             android:id="@+id/fragment_menu_calendar_01"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
@@ -24,22 +25,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="8"
+        android:layout_weight="10"
         android:background="@drawable/estilo_barra_inferior"
         android:gravity="center">
+
         <Space
             android:layout_width="5dp"
             android:layout_height="wrap_content" />
 
         <ImageButton
             android:id="@+id/imageButton"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
             android:layout_weight="0"
             android:backgroundTint="#00FFFFFF"
             android:cropToPadding="true"
             android:scaleType="fitEnd"
-            tools:src="@mipmap/calendario_reloj" />
+            app:srcCompat="@mipmap/calendario_reloj" />
+
         <Space
             android:layout_width="5dp"
             android:layout_height="wrap_content" />
@@ -51,21 +54,22 @@
             android:layout_weight="0"
             android:paddingLeft="4dp"
             android:paddingRight="4dp"
-            android:src="@tools:sample/avatars"
             app:srcCompat="@mipmap/linea_vertical" />
+
         <Space
             android:layout_width="5dp"
             android:layout_height="wrap_content" />
 
         <ImageButton
             android:id="@+id/imageButton5"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
             android:layout_weight="0"
             android:backgroundTint="#00FFFFFF"
             android:cropToPadding="true"
             android:scaleType="fitEnd"
-            tools:src="@mipmap/llave_inglesa" />
+            app:srcCompat="@mipmap/llave_inglesa" />
+
         <Space
             android:layout_width="5dp"
             android:layout_height="wrap_content" />
@@ -77,23 +81,26 @@
             android:layout_weight="0"
             android:paddingLeft="4dp"
             android:paddingRight="4dp"
-            android:src="@tools:sample/avatars"
             app:srcCompat="@mipmap/linea_vertical" />
+
         <Space
             android:layout_width="5dp"
             android:layout_height="wrap_content" />
+
         <ImageButton
             android:id="@+id/imageButton6"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
             android:layout_weight="0"
             android:backgroundTint="#00FFFFFF"
             android:cropToPadding="true"
             android:scaleType="fitEnd"
-            tools:src="@mipmap/garaje" />
+            app:srcCompat="@mipmap/garaje" />
+
         <Space
             android:layout_width="5dp"
             android:layout_height="wrap_content" />
+
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="15dp"
@@ -101,20 +108,21 @@
             android:layout_weight="0"
             android:paddingLeft="4dp"
             android:paddingRight="4dp"
-            android:src="@tools:sample/avatars"
             app:srcCompat="@mipmap/linea_vertical" />
+
         <Space
             android:layout_width="5dp"
             android:layout_height="wrap_content" />
+
         <ImageButton
             android:id="@+id/imageButton7"
-            android:layout_width="75dp"
-            android:layout_height="75dp"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
             android:layout_weight="0"
             android:backgroundTint="#00FFFFFF"
             android:cropToPadding="true"
             android:scaleType="fitEnd"
-            tools:src="@mipmap/usd_circulo" />
+            app:srcCompat="@mipmap/usd_circulo" />
 
     </LinearLayout>
 </LinearLayout>
