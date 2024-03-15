@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.angel.capokar_app_clientes"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.angel.capokar_app_clientes"
