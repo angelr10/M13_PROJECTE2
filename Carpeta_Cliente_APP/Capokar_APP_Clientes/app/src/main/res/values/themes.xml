@@ -2,7 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Capokar_APP_Clientes" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!--<back name="colorPrimary">@drawable/estilo_boton_menu_01</back> -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="Theme.Capokar_APP_Clientes" parent="Base.Theme.Capokar_APP_Clientes" />

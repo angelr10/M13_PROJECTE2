@@ -3,9 +3,11 @@
     <color name="naranja_01">#FFEC7026</color>
     <color name="naranja_02">#FFFFA56F</color>
     <color name="gris_01">#FFD3D3D3</color>
+    <color name="gris_02">#FFB8B7B7</color>
     <color name="amarillo_01">#FFFBE170</color>
-    <color name="blanco_01">#FFE4DEC0</color>
+    <color name="blanco_01">#FFF9F9F9</color>
     <color name="granate_01">#FFDB1D3D</color>
+    <color name="negro_01">#000000</color>
 
 
 </resources>
