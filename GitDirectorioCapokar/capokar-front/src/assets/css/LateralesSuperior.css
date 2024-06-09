@@ -1,0 +1,16 @@
+.contenedorInformacionLateralSuperior{
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+}
+.mainContent{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+
+}
+.contenedorContenido{
+    height: 100%;
+}

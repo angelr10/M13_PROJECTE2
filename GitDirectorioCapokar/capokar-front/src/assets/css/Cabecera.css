@@ -1,0 +1,22 @@
+.cabeceraPrincipal {
+    background: linear-gradient(to right, #FF7624 0%,#F3CE4C 15%, #F3CE4C 67%, #FCD449 100%);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px;
+    grid-gap: 20px;
+}
+
+.cabeceraPrincipal button {
+    background-color: transparent;
+    color: black;
+    border: 1px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 60px;
+    width: 170px;
+    
+}
