@@ -1,0 +1,11 @@
+.rootAcercaDeNosotros{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.barraGris{
+    height: 100%;
+    width: 15px;
+    background-color: rgb(136, 136, 136);
+}
+
