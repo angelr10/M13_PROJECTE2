@@ -7,7 +7,6 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.capokar.es.capokar.Exceptions.VehiculoNotFoundException;
 import com.capokar.es.capokar.Model.Factura;
 import com.capokar.es.capokar.Model.Vehiculo;
 import com.capokar.es.capokar.Repositories.IFacturaRepository;
