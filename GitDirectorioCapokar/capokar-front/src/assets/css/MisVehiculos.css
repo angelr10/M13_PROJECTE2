@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.barraGris{
+    height: 100%;
+    width: 15px;
+    background-color: rgb(136, 136, 136);
+}
+.msv-contenedor-root{
+    height: 100%;
+    display: flex;
+}
+.msv-contenedor-base{
+    padding-left: 6vh;
+    display: flex;
+    flex-direction: column;
+}
+.msv-link {
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    text-decoration: none;
+    color: #000000;
+}
+.div-boton-agregar-vehiculo{
+    border: 2vh;
+    border-color: black;
+    background-color: white;
+    display: flex;
+    width: fit-content;
+    border: 10px;
+}

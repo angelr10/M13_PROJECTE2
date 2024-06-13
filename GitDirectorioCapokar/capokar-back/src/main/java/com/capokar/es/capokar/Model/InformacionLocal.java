@@ -43,6 +43,38 @@ public class InformacionLocal {
     @Column
     private String cuenta_bancaria;
 
+    @Column
+    private String direccion;
+
+    @Column
+    private float ejeX;
+    @Column
+    private float ejeY;
+    
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public float getEjeX() {
+        return ejeX;
+    }
+
+    public void setEjeX(float ejeX) {
+        this.ejeX = ejeX;
+    }
+
+    public float getEjeY() {
+        return ejeY;
+    }
+
+    public void setEjeY(float ejeY) {
+        this.ejeY = ejeY;
+    }
+
     public Long getId_local() {
         return id_local;
     }

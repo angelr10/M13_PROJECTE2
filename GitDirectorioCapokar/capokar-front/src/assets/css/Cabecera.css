@@ -1,15 +1,16 @@
-.cabeceraPrincipal {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.main-cabecera {
     background: linear-gradient(to right, #FF7624 0%,#F3CE4C 15%, #F3CE4C 67%, #FCD449 100%);
-    height: 100px;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 20px;
+    padding: 20px;
     grid-gap: 20px;
 }
 
-.cabeceraPrincipal button {
+.main-cabecera button {
     background-color: transparent;
     color: black;
     border: 1px solid;
@@ -19,4 +20,50 @@
     height: 60px;
     width: 170px;
     
+}
+li {
+    display: unset;
+}
+.main-cabecera-links{
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    gap: 10vh;
+}
+.main-cabecera-links a:hover{
+    background-color: rgba(125, 88, 8, 0.319);
+}
+.main-cabecera-links a{
+    height: fit-content;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 0;
+    margin: 0;
+}
+.main-iconText{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.main-iconText-cerrar{
+    height: 29px;
 }

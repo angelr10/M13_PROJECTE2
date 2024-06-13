@@ -1,0 +1,56 @@
+.contenedor-cont-root {
+    width: 100%;
+    height: 100%; /* Asegura que el contenedor tenga la altura de la ventana gráfica */
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #E2C353 0%, #FFFFFF 100%);
+}
+.contenedorElementos{
+    padding-top: 9vh;
+    padding-left: 10vh;
+}
+.contactanos-root {
+    
+    width: 100%;
+    height: 100%;
+}
+.contenedorElementos{
+    display: flex;
+    flex-direction: column;
+}
+.contactanos-root h1{
+    padding-left: 5vh;
+}
+
+.section-contenido-contacto{
+    padding-top: 0;
+    height: fit-content;
+}
+.contenedor-mapa {
+    border: black solid;
+    border-width: 1vh;
+    width: 50vh;
+    height: 50vh;
+    justify-content: center;
+    margin-right: 20vh;
+}
+
+.barraGris01 {
+    height: 100%;
+    width: 15px;
+    background-color: rgb(136, 136, 136);
+}
+
+.contenedor-horizontal-contactanos {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding-left: 5vh;
+    justify-content: space-between;
+}
+.section-contenido-contacto h2{
+    font-size: 6vh;
+}
+.section-contenido-contacto h3{
+    font-size: 3.5vh;
+}

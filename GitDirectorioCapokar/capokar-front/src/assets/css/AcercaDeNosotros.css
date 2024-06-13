@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .rootAcercaDeNosotros{
     width: 100%;
     height: 100%;
     display: flex;
+    
+}
+.contenidoReal{
+    width: 100%;
 }
 .barraGris{
     height: 100%;
@@ -9,3 +14,87 @@
     background-color: rgb(136, 136, 136);
 }
 
+/* SECCION ACERCA DE NOSOTROS*/
+.barraSeparadora{
+    height: 9px;
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+}
+
+.img01{
+    height: 50vh;
+    margin: 0 auto;
+}
+.seccion-imagen-acercade{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(to right, #E2C353 0%, #FFFFFF 100%);
+}
+.que-realizamos{
+    
+    height: fit-content;
+    width: 60%;
+    padding-bottom: 6vh;
+    padding-left: 5vh;
+}
+
+
+.img02{
+    height: 50vh;
+    margin: 0 auto;
+}
+.contenedor-botones{
+    display: flex;
+    flex-direction: row;
+    gap: 10vh;
+    justify-content: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.contenedor-botones button{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    font-size: 3vh;
+    background-color: white;
+    padding-top: 3.5vh;
+    padding-bottom: 3.5vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    border-color: transparent;
+    cursor: pointer;
+}
+.contenedor-botones button:hover{
+    border-color: #FFA56F;
+}
+.contenedor-al-presionar-compromiso{
+    background: linear-gradient(to right, #FFFFFF 0% , #FFA56F 100%);
+    
+}
+.seccion-al-presionar-compromiso01{
+    padding-top: 10vh;
+    width: 60%;
+    text-align: justify;
+    margin: 0 auto;
+}
+.seccion-compromiso-img{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.seccion-al-presionar-compromiso02{
+    height: fit-content;
+    width: 60%;
+    padding-bottom: 6vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+/* Generales */
+h1{
+    font-size: 60px;
+    padding-top: 6vh;
+    padding-bottom: 4vh;
+}

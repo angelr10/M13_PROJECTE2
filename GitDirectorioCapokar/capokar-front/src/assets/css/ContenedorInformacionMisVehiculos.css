@@ -1,0 +1,17 @@
+.msvc-contenedor-root{
+    background-color: rgba(131, 131, 131, 0.186);
+}
+.contenedor-vehiculos h2{
+    font-size: 20px;
+}
+.contenedor-vehiculos h3{
+    font-size: 18px;
+}
+.section-contenido-contacto{
+    padding-left: 3vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.contenedor-vehiculos{
+    display: flex;
+}

@@ -1,42 +1,33 @@
-.lateralBarra {
+.root-lateral-barra {
     background: linear-gradient(to bottom, #FF7624 0%,#FF7624 5%, #FF7624 75%, #994716 100%);
     height: 100vh;
-    width: 150px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    grid-gap: 60px;
+    gap: 6vh;
     justify-content: flex-start;
 }
-
-.lateralBarra button {
-    background-color: transparent;
-    padding: 10px 20px;
-    border: 1px none;
-    border-radius: 100px;
-    cursor: pointer;
-    font-size: 16px;
+.root-sobre-nosotros-link :hover{
+    list-style: none;
+    background-color: rgba(172, 136, 18, 0.459);
+    border-radius: 10vh;
+    border: none;
 }
-
-.lateralBarra button:hover{
-    background-color: rgba(204, 202, 57, 0.232);
+.iconText{
+    padding-top: 40px;
+    border: transparent;
 }
-
-.contenedoresBotones button{
-    width: 100%;
-    height: 100px;
-    justify-content: center;
-}
-
 .imagenLogo{
-    width: 95px;
-    height: 95px;
+    width: 60px;
+    height: 60px;
     margin-top: 10%;
     margin-bottom: 50%;
 }
 
 .icoMenu{
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
+    
 }

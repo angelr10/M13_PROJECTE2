@@ -1,17 +1,14 @@
-.root-base-contenido{
-
+.contenedorLateralBloques{
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr;
     height: 100vh;
     overflow: hidden;
 }
-.root-base-contenido-cabecera{
+.mainContentIdentificacion{
     display: grid;
     grid-template-rows: auto 1fr;
     height: 100%;
     overflow-y: auto;
-}
-/* .contenedorContenido{
     height: 100%;
-} */
+}

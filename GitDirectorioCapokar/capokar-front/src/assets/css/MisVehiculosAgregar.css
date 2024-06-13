@@ -1,0 +1,13 @@
+.barra-lateral{
+    height: 100%;
+    width: 15px;
+    background-color: rgb(136, 136, 136);
+}
+.mva-root{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.contenedor-informacion{
+    padding-left: 6vh;
+}
