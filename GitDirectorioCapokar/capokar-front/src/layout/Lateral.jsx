@@ -11,32 +11,35 @@ import imagenMenu04 from '../img/llave-inglesa.png';
 const Lateral = () => {
     
     return(
-        <div className='lateralBarra'>
+        <div className='root-lateral-barra'>
             <img className='imagenLogo' src={imagen01} alt="Logo capokar"/>
-            <div className='contenedoresBotones'>
-                
-                <button>
+            <li className='root-sobre-nosotros-link'>
+                <NavLink className='iconText' to={'/'}>
+                    {/* <span>Sobre Nosotros</span> */}
                     <img className='icoMenu' src={imagenMenu01} alt="Calendario"/>
-                </button>
-            </div>
-            <div className='contenedoresBotones'>
-                
-                <button>
+                </NavLink>
+            </li>
+
+            <li className='root-sobre-nosotros-link'>
+                <NavLink className='iconText' to={'/MisVehiculos'}>
+                    {/* <span>Sobre Nosotros</span> */}
                     <img className='icoMenu' src={imagenMenu02} alt="Mis Vehiculos"/>
-                </button>
-            </div>
-            <div className='contenedoresBotones'>
-                
-                <button>
+                </NavLink>
+            </li>
+
+            <li className='root-sobre-nosotros-link'>
+                <NavLink className='iconText' to={'/'}>
+                    {/* <span>Sobre Nosotros</span> */}
                     <img className='icoMenu' src={imagenMenu03} alt="Tienda"/>
-                </button>
-            </div>
-            <div className='contenedoresBotones'>
-                
-                <button>
+                </NavLink>
+            </li>
+
+            <li className='root-sobre-nosotros-link'>
+                <NavLink className='iconText' to={'/Ajustes'}>
+                    {/* <span>Sobre Nosotros</span> */}
                     <img className='icoMenu' src={imagenMenu04} alt="Ajustes"/>
-                </button>
-            </div>
+                </NavLink>
+            </li>
             
         </div>
         

@@ -5,9 +5,9 @@ import '../assets/css/LateralesSuperior.css';
 
 const PublicLayout = () => {
     return (
-        <div className="contenedorInformacionLateralSuperior">
+        <div className="root-base-contenido">
             <Lateral/>
-            <div className="mainContent">
+            <div className="root-base-contenido-cabecera">
                 <Cabecera/>
                 <main className="contenedorContenido">
                     <Outlet/>

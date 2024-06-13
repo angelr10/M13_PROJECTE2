@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.capokar.es.capokar.Model.Cliente;
 import com.capokar.es.capokar.Repositories.IClienteRepository;
+import com.capokar.es.capokar.seguridad.JwtUtil;
 
 @Service
 public class ClienteService{
@@ -30,6 +31,28 @@ public class ClienteService{
         return clienteEliminado;
     }
 
+    public boolean comprobarExisteUsuario(String nombre){
+        Optional<Cliente> clienteEncontradoNombre = clienteRepository.findByNombre(nombre);
+        if(clienteEncontradoNombre.isPresent()){
+            return true;
+        }else{
+            return false;
+        }
+        
+    }
+    public String intentoIniciarSesion(String nombre, String contra){
+        Optional<Cliente> clienteEncontradoNombre = clienteRepository.findByNombre(nombre);
+        if(clienteEncontradoNombre!=null){
+            Cliente clienteExistente = clienteEncontradoNombre.get();
+            if(clienteExistente.getContraseña().equals(contra)){
+                return JwtUtil.generateToken(clienteExistente);
+            }else{
+                return null;
+            }
+        }
+        return null;
+    }
+
     public Optional<Cliente> actualizarCliente(Long id,Cliente cliente){
         Optional<Cliente> clienteAntesDeActualizar = clienteRepository.findById(id);
         if (clienteAntesDeActualizar.isPresent()){
@@ -47,5 +70,13 @@ public class ClienteService{
             return Optional.of(clienteExistente);
         }
         return Optional.empty();
+    }
+
+    public Optional<Cliente> buscarClienteID(Long idClienteBuscar){
+        Optional<Cliente> clienteBuscado = clienteRepository.findById(idClienteBuscar);
+        if(clienteBuscado.isPresent()){
+            return clienteBuscado;
+        }
+        return null;
     }
 }

@@ -27,9 +27,28 @@ public class ClienteController {
         return this.clienteService.getClientes();
     }
 
+    @GetMapping("/buscarClienteID/{id_cliente}")
+    public Optional<Cliente> buscarClienteID(@PathVariable Long id_cliente){
+        return this.clienteService.buscarClienteID(id_cliente);
+    }
+
     @PostMapping("/guardarCliente")
     public Cliente guardarCliente(@RequestBody Cliente cliente){
         return this.clienteService.guardarCliente(cliente);
+    }
+
+    @GetMapping("/comprobarExiste/{NombreUsuario}")
+    public boolean comprobarExistenciaCliente(@PathVariable("NombreUsuario") String NombreUsuario){
+        return this.clienteService.comprobarExisteUsuario(NombreUsuario);
+    }
+
+    @GetMapping("/iniciarSesionCliente/{NombreUsuario}/{contraseña}")
+    public String probarUsuarioYContraseña(@PathVariable String NombreUsuario,@PathVariable String contraseña){
+        String token = this.clienteService.intentoIniciarSesion(NombreUsuario,contraseña);
+        if(token!=null){
+            return token;
+        }
+        return "Error al autorizar token";
     }
 
     @DeleteMapping("/eliminarClienteID/{id}")
@@ -42,4 +61,6 @@ public class ClienteController {
     public Optional<Cliente> actualizarClientePorID(@PathVariable Long id, @RequestBody Cliente cliente){
         return clienteService.actualizarCliente(id, cliente);
     }
+    
+
 }

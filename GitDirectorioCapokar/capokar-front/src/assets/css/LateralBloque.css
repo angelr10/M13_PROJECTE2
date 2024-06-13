@@ -1,0 +1,81 @@
+.container-lateralBarraABloques{
+    
+    height: 100vh;
+    width: 250px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-bloques{
+    display: flex;
+    flex-direction: row;
+    height: 12.5%;
+    width: 100%;
+    background-color: black;
+}
+.container-individual-bloque01{
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FF7624 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
+.container-individual-bloque02{
+    background: linear-gradient(to Left, #FFFFFF 0%, #FF7624 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
+.container-individual-bloque03{
+    background: linear-gradient(to Right, #FFFFFF 0%, #FF7624 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
+.container-individual-bloque04{
+    background: linear-gradient(to top, #FFFFFF 0%, #FF7624 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
+.container-individual-bloque05{
+    background: linear-gradient(to top, #FFFFFF 0%, #FBE170 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
+.container-individual-bloque06{
+    background: linear-gradient(to Left, #FFFFFF 0%, #FBE170 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
+.container-individual-bloque07{
+    background: linear-gradient(to bottom, #FFFFFF 0%, #FBE170 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
+.container-individual-bloque08{
+    background: linear-gradient(to top, #FFFFFF 0%, #1f1f1f 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
+.container-individual-bloque09{
+    background: linear-gradient(to Right, #FFFFFF 0%, #1f1f1f 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
+.container-individual-bloque10{
+    background: linear-gradient(to bottom, #FFFFFF 0%, #1f1f1f 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
+.container-individual-bloque11{
+    background: linear-gradient(to Right, #FFFFFF 0%, #FBE170 100%);
+    height: max-content;
+    height: 100%;
+    width: 50%;
+}
