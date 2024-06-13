@@ -4,7 +4,7 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
 
-import java.util.Base64;
+
 import java.util.Date;
 import java.security.Key;
 import com.capokar.es.capokar.Model.Cliente;
